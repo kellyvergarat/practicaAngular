@@ -14,6 +14,13 @@ export class AppComponent {
   img = 'https://www.sanboni.edu.co/onu/wp-content/uploads/avatar-mujer.png';
   img2 = 'https://source.unsplash.com/random';
   btnDisabled = true;
+
+  register = {
+    name: '',
+    email: '',
+    password: '',
+  }
+
   person = {
     name: 'Nicolas',
     age: 18,
@@ -86,5 +93,9 @@ export class AppComponent {
 
   deleteName(index: number){
     this.names.splice( index, 1);
+  }
+
+  onRegister(){
+    console.log(this.register);
   }
 }
