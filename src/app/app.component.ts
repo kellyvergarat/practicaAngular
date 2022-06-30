@@ -12,6 +12,7 @@ export class AppComponent {
   name = "Nicolas";
   age = 18;
   img = 'https://www.sanboni.edu.co/onu/wp-content/uploads/avatar-mujer.png';
+  img2 = 'https://source.unsplash.com/random';
   btnDisabled = true;
   person = {
     name: 'Nicolas',
